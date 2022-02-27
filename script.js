@@ -25,8 +25,7 @@ function shuffle() {
     }
 
     for (let j = 0; j < array.length; j++) {
-        console.log(array[j]);
-
+  
         document.getElementById(`card${j + 1}`).innerHTML = array[j];
     }
 
